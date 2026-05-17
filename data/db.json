@@ -1,4 +1,4 @@
-﻿{
+{
   "services": [
     {
       "id": "1",
@@ -141,7 +141,131 @@
       "img": "../img/testimonial-4.jpg"
     }
   ],
-  "newsPaper": [],
-  "reserve": [],
-  "massage": []
+  "newsPaper": [
+    {
+      "id": "1",
+      "email": "customer.one@example.com"
+    },
+    {
+      "id": "2",
+      "email": "customer.two@example.com"
+    },
+    {
+      "id": "3",
+      "email": "customer.three@example.com"
+    },
+    {
+      "id": "7a2b",
+      "email": "guest.one@example.com"
+    },
+    {
+      "id": "87dd",
+      "email": "guest.two@example.com"
+    },
+    {
+      "id": "db3c",
+      "email": "guest.three@example.com"
+    },
+    {
+      "id": "0df2",
+      "email": "guest.four@example.com"
+    },
+    {
+      "id": "94ee",
+      "email": "guest.five@example.com"
+    },
+    {
+      "id": "c742",
+      "email": "guest.six@example.com"
+    }
+  ],
+  "reserve": [
+    {
+      "id": "1",
+      "name": "Demo Guest",
+      "email": "guest.one@example.com",
+      "date": "2000/02/10",
+      "time": "13:20",
+      "person": "4"
+    },
+    {
+      "id": "f38a",
+      "name": "Sample Guest",
+      "email": "guest.two@example.com",
+      "date": "2025-05-14",
+      "time": "13:44",
+      "person": "2"
+    },
+    {
+      "id": "a6f5",
+      "name": "Reservation Guest",
+      "email": "guest.three@example.com",
+      "date": "2025-05-08",
+      "time": "10:36",
+      "person": "3"
+    },
+    {
+      "id": "2ad3",
+      "name": "Morning Guest",
+      "email": "guest.four@example.com",
+      "date": "2025-04-24",
+      "time": "10:15",
+      "person": "2"
+    },
+    {
+      "id": "9714",
+      "name": "Afternoon Guest",
+      "email": "guest.five@example.com",
+      "date": "2025-04-24",
+      "time": "10:15",
+      "person": "2"
+    },
+    {
+      "id": "4c86",
+      "name": "Walk-in Guest",
+      "email": "guest.six@example.com",
+      "date": "",
+      "time": "",
+      "person": ""
+    },
+    {
+      "id": "d9c1",
+      "name": "Evening Guest",
+      "email": "guest.seven@example.com",
+      "date": "2025-05-08",
+      "time": "10:43",
+      "person": "4"
+    },
+    {
+      "id": "cf9f",
+      "name": "Weekend Guest",
+      "email": "guest.eight@example.com",
+      "date": "2025-05-01",
+      "time": "16:48",
+      "person": "2"
+    }
+  ],
+  "massage": [
+    {
+      "id": "1",
+      "name": "Demo Customer",
+      "email": "customer.one@example.com",
+      "subject": "Reservation question",
+      "text": "Do you have outdoor seating?"
+    },
+    {
+      "id": "4941",
+      "name": "Sample Customer",
+      "email": "customer.two@example.com",
+      "subject": "Catering request",
+      "text": "Please send catering options for a small team event."
+    },
+    {
+      "id": "6421",
+      "name": "Coffee Customer",
+      "email": "customer.three@example.com",
+      "subject": "Product availability",
+      "text": "Will the cold brew blend be available this weekend?"
+    }
+  ]
 }
